@@ -29,7 +29,6 @@ func main() {
 			defer dst.Close()
 
 			io.Copy(dst, src)
-			io.Copy(res, file)
 
 			contents, err := ioutil.ReadFile("file.txt")
 			value = string(contents)

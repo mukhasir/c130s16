@@ -29,6 +29,7 @@
       <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/loader/testdata" />
       <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/gcimporter/testdata" />
       <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/gcimporter15/testdata" />
+      <root url="file://$PROJECT_DIR$/../../nu7hatch/gouuid/.git" />
       <root url="file://$PROJECT_DIR$/../../GoesToEleven/golang-web/.git" />
       <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/types/testdata" />
       <root url="file://$PROJECT_DIR$/../../GoesToEleven/GolangTraining/.git" />
