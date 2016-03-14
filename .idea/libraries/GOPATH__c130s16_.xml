@@ -20,6 +20,7 @@
       <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/cmd/bundle/testdata" />
       <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/ssa/testdata" />
       <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/../../GoesToEleven/golang-web/.idea" />
       <root url="file://$PROJECT_DIR$/../.git" />
       <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/callgraph/cha/testdata" />
       <root url="file://$PROJECT_DIR$/../.idea" />
@@ -37,7 +38,6 @@
       <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/cmd/cover/testdata" />
       <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/.git" />
       <root url="file://$PROJECT_DIR$/../../GoesToEleven/go_web_app/.git" />
-      <root url="file://$PROJECT_DIR$/../../GoesToEleven/golang-web/.idea" />
       <root url="file://$PROJECT_DIR$/../../../golang.org/x/tools/go/gccgoimporter/testdata" />
       <root url="file://$PROJECT_DIR$/../../GoesToEleven/go_web_app/.idea" />
       <root url="file://$PROJECT_DIR$/.idea" />
