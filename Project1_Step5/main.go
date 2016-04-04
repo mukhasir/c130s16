@@ -7,11 +7,20 @@ import (
 	"github.com/nu7hatch/gouuid"
 	"net/http"
 	"text/template"
+	"crypto/hmac"
+	"io"
+	"crypto/sha256"
 )
 
 type User struct {
 	Age  string
 	Name string
+}
+
+func getCode(data string) string {
+	h := hmac.New(sha256.New, []byte("projectlogin"))
+	io.WriteString(h, data)
+	return fmt.Sprintf("%x", h.Sum(nil))
 }
 
 func startpage(res http.ResponseWriter, req *http.Request) {
@@ -41,12 +50,14 @@ func startpage(res http.ResponseWriter, req *http.Request) {
 			HttpOnly: true,
 		}
 	} else {
-		id, _ := uuid.NewV4()
-		cookie = &http.Cookie{
-			Name:  "session-fino",
-			Value: id.String() + name + age + json,
-			//Secure : true,
-			HttpOnly: true,
+		if req.Method == "POST" {
+			id, _ := uuid.NewV4()
+			cookie = &http.Cookie{
+				Name:  "session-fino",
+				Value: id.String() + name + age + json,
+				//Secure : true,
+				HttpOnly: true,
+			}
 		}
 	}
 	http.SetCookie(res, cookie)
