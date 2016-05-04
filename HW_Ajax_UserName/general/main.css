@@ -6,7 +6,7 @@ html, body, h1, form, label, input {
 }
 
 * {
-    border: 4px solid hotpink !important;
+    border: 4px solid deepskyblue !important;
 }
 
 html, body {
@@ -14,7 +14,7 @@ html, body {
 }
 
 html {
-    background-color: #00C957;
+    background-color: #AC1F2D;
 }
 
 body {
@@ -34,7 +34,7 @@ form {
 
 label {
     text-align: center;
-    color: rgba(255,255,255,.7);
+    color: #1e376c;
     font-size: 10vw;
     width: 100%;
 }
@@ -50,19 +50,19 @@ label {
     width: 24vw;
     border-radius: 20px;
     margin: 2vw;
-    background-color: rgb(244, 194, 13);
+    background-color: #e98a29;
     font-size: 3vw;
     text-transform: uppercase;
-    color: rgba(0,0,0,.4);
+    color: #4a83b8;
 }
 
 #btn:hover {
-    color: rgb(0,0,0);
+    color: #248cc8;
 }
 
 h1 {
     text-align: center;
-    color: rgba(244, 194, 13, .9);
+    color: #f47e3c;
     font-size: 6vw;
     width: 100%;
 }
